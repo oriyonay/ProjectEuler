@@ -1,0 +1,39 @@
+Euler5, no need for a program:
+
+The lowest common multiple of a1, a2, ... an = the product of the greatest power of each of their unique prime factors.
+For example, here are the prime factors of 2-10:
+
+2: 2
+3: 3
+4: 2^2
+5: 5
+6: 2 3
+7: 7
+8: 2^3
+9: 3^2
+10: 2^5
+
+The greatest powers here are: 2^3, 3^2, 5^1, 7^1. Multiplying these gives 2,520, which is the answer to the example.
+We do the same for numbers up to 20:
+
+2: 2
+3: 3
+4: 2^2
+5: 5
+6: 2 3
+7: 7
+8: 2^3
+9: 3^2
+10: 2^5
+11: 11
+12: 2^2 3
+13: 13
+14: 2 7
+15: 3 5
+16: 2^4
+17: 17
+18: 2 3^2
+19: 19
+20: 2^2 5
+
+The greatest powers here are: 2^4, 3^2, 5^1, 7^1, 11^1, 13^1, 17^1, 19^1. Multiplying these gives 232,792,560, which is the answer to Euler5.
